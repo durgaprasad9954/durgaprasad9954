@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+}
+
+.Parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f0f0f;
+  color: rgb(243, 243, 243);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+  position: sticky;
+  top: 0px;
+  gap: 10px;
+}
+
+.Menu {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.Button {
+  color: White;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.bodyparent {
+  background-color: #0f0f0f;
+  align-items: flex-start;
+  color: white;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.bodychild {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 100px;
+  padding: 14px;
+  color: rgb(255, 255, 255);
+  font-weight: 800px;
+  font-size: 100px;
+
+}
+
+.About {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+}
+
+.line {
+  background-color: white;
+  width: 900px;
+  height: 0.5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.links {
+  display: inline-flex;
+  background-color: transparent;
+  text-decoration: white;
+  font-size: 24px;
+  color: white;
+  gap: 20px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.about {
+  background-color: #0f0f0f;
+  font-size: 44px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 24px;
+}
+
+.secondparent {
+  background-color: #0f0f0f;
+  justify-content: space-around;
+  color: rgb(255, 255, 255);
+  padding: 24px;
+  gap: 20px;
+}
+
+.secondparent,
+p {
+  font-size: 24px;
+}
+
+.works {
+  display: flex;
+  justify-content: space-between;
+}
+
+.WhyChoose {
+  background-color: #0f0f0f;
+  color: white;
+  text-align: center;
+  font-size: 34px;
+  padding: 24px;
+
+}
+
+.qualification {
+  display: flex;
+  text-align: start;
+  font-size: 38px;
+  padding: 50px;
+  gap: 50px;
+  align-items: end;
+  justify-content: center;
+}
+
+.Services {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  height: 100%;
+  align-items: start;
+  padding: 10px;
+  gap: 20px;
+}
+
+.image {
+  width: 550px;
+  height: 500px;
+}
+
+.Skills {
+  display: flex;
+  color: White;
+  padding: 24px;
+  background-color: #0f0f0f;
+  gap: 400px;
+  justify-content: center;
+}
+
+.Skills1 {
+  display: flex;
+  text-align: start;
+  align-items: start;
+  justify-content: start;
+  font-size: 38px;
+}
+
+.Design1 {
+  display: flex;
+  gap: 20px;
+}
+
+.larger-heading {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.Design {
+  background-color: #202020;
+  border-radius: 40px;
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.Scroll {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  gap: 50px;
+  width: 50%;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  animation: scroll 10s linear infinite;
+}
+
+.marquee {
+  background-color: #0f0f0f;
+}
+
+.Experience {
+  color: white;
+  font-size: 34px;
+  padding: 34px;
+  align-items: start;
+  text-align: center;
+  background-color: #0f0f0f;
+}
+
+.ExperienceContainer1 {
+
+  font-size: 18px;
+  font-family: Roboto sans-serif;
+  font-weight: 300;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.ExperienceContainer2 {
+  align-items: start;
+  text-align: start;
+  gap: 0px;
+  padding-left: 24px;
+  border-left: 1px solid white;
+  width: 60%;
+}
+
+.para {
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #8e8e84;
+
+}
+
+.contact {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  background-color: #202020;
+
+}
+
+.button {
+  color: white;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 14px;
+  font-size: 22px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.Contactpara {
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: White;
+}
+
+.contact1 {
+  padding-bottom: 30px;
+}
+
+.contact2 {
+  padding-bottom: 10px;
+}
+
+.line1 {
+  background-color: white;
+  width: 80%;
+}
+
+.Footer {
+  background-color: #202020;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: start;
+  display: flex;
+}
+
+.Footer1 {
+  display: flex;
+  gap: 20px;
+
+}
