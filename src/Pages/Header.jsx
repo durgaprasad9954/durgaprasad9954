@@ -8,10 +8,10 @@ function Header() {
             </div>
             <div className="Menu">
                 <a href="body">Home</a>
-                <p>About</p>
-                <p>Skills</p>
-                <p>Projects</p>
-                <p>Contact</p>
+                <a href="about">About</a>
+                <a href="Skills">Skills</a>
+                <a href="about">Projects</a>
+                <a href="Footer">Contact</a>
             </div>
             <div>
                 <a href="https://web.whatsapp.com/">

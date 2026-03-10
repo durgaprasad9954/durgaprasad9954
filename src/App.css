@@ -1,5 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .Parent {
@@ -23,6 +31,7 @@ body {
   font-size: 28px;
   color: White;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
 .Button {
@@ -317,9 +326,195 @@ p {
 .Footer3 {
   gap: 20px;
   list-style: none;
-  font-size: 14px;
+  font-size: 10px;
   padding-top: 24px;
   padding-left: 44px;
   cursor: pointer;
   position: fixed;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .Skills {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Parent {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    position: static;
+    dropdown-content: Menu;
+  }
+
+  .Menu {
+    gap: 15px;
+    font-size: 20px;
+    justify-content: Right;
+    flex-direction: column;
+    align-items: Right;
+    text-align: Right;
+  }
+
+  .Button {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .bodychild {
+    flex-direction: column;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .About {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .Contactpara {
+    font-size: 20px;
+  }
+
+  .works {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .secondparent {
+    text-align: center;
+  }
+
+  .qualification {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .Skills {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Skills1 {
+    text-align: center;
+    align-items: center;
+  }
+
+  .Design1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Scroll {
+    width: 100%;
+    font-size: 20px;
+    gap: 30px;
+  }
+
+  .ExperienceContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .ExperienceContainer1 {
+    flex-direction: column;
+    padding-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ExperienceContainer2 {
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid white;
+    padding-left: 0;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .SecondaryImage {
+    max-width: 100%;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .Footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .Footer1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    gap: 15px;
+  }
+
+  .Footer3 {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Parent {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .Menu {
+    font-size: 18px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bodychild {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .larger-heading {
+    font-size: 28px;
+  }
+
+  .para {
+    font-size: 18px;
+  }
+
+  .about {
+    font-size: 28px;
+  }
+
+  .WhyChoose {
+    font-size: 24px;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
 }

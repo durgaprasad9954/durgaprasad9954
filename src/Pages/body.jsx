@@ -5,7 +5,7 @@ function Body() {
         <div className='body'>
             <div className="bodychild">
                 <h1 className="name">Durgaprasad <br></br> Kolli</h1>
-                <img src="\images\WhatsApp Image 2026-03-03 at 7.09.06 AM.jpeg" width="400px" />
+                <img src="\images\WhatsApp Image 2026-03-03 at 7.09.06 AM.jpeg" style={{ maxWidth: '100%', height: 'auto', width: '400px' }} />
             </div>
 
             <div className="About">

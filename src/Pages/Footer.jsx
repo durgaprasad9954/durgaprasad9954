@@ -34,8 +34,6 @@ function Footer() {
                 </li>
             </div>
             <div className="Footer2">
-                <h1 style={{ fontSize: "38px" }}>Durgaprasad </h1>
-                <h2>Portfolio</h2>
                 <p>Copyright © 2026 | Powered by Durgaprasad</p>
             </div>
         </div>
