@@ -7,7 +7,7 @@ function Header() {
                 <h1>Durgaprasad Kolli</h1>
             </div>
             <div className="Menu">
-                <p>Home</p>
+                <a href="body">Home</a>
                 <p>About</p>
                 <p>Skills</p>
                 <p>Projects</p>

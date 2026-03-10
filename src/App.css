@@ -20,6 +20,9 @@ body {
   display: flex;
   gap: 30px;
   cursor: pointer;
+  font-size: 28px;
+  color: White;
+  text-decoration: none;
 }
 
 .Button {
@@ -45,12 +48,11 @@ body {
 .bodychild {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  font-size: 100px;
+  justify-content: space-between;
+  font-size: 50px;
   padding: 14px;
   color: rgb(255, 255, 255);
-  font-weight: 800px;
-  font-size: 100px;
+  font-weight: 500px;
 
 }
 
@@ -147,8 +149,8 @@ p {
 }
 
 .image {
-  width: 550px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
   background-color: transparent;
 }
 
