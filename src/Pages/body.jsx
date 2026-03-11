@@ -10,7 +10,7 @@ function Body() {
 
             <div className="About">
                 <h1>Hii There...!</h1>
-                <h1 className="Contactpara">I’m a Data Science Enthusiast passionate about turning data into meaningful insights<br></br>and real-world solutions. I enjoy working with data analysis, machine learning,<br></br>and visualization to solve problems and support smarter decision-making.</h1>
+                <h1 className="Contactpara">I’m a Data Science Enthusiast passionate about turning data into meaningful insights <br></br>and real-world solutions. I enjoy working with data analysis, machine learning,<br></br>and visualization to solve problems and support smarter decision-making.</h1>
                 <h1>(2026)</h1>
 
             </div>

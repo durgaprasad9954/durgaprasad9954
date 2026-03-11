@@ -18,7 +18,7 @@ function Secondsection() {
                     <h1>Backend Developer</h1>
                 </div>
             </div>
-            <h6 className="Contactpara">Curious about how data shapes the world, I started my journey into data science to solve real problems with evidence<br></br> and insights. I enjoy experimenting with models, visualizing trends, and continuously learning <br></br>new techniques to improve decision-making.</h6>
+            <h6 className="Contactpara">Curious about how data shapes the world, I started my journey into data science to solve real problems <br></br> with evidence and insights. I enjoy experimenting with models, visualizing trends, and continuously <br></br> learning new techniques to improve decision-making.</h6>
         </div>
 
     );

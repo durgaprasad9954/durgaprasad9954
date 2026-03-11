@@ -48,7 +48,7 @@ body {
   background-color: #0f0f0f;
   align-items: flex-start;
   color: white;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 24px;
   position: relative;
 
@@ -73,6 +73,7 @@ body {
 .About {
   display: flex;
   padding: 24px;
+  gap: 10px;
   justify-content: space-between;
 }
 
@@ -333,13 +334,37 @@ p {
   position: fixed;
 }
 
-/* Responsive Styles */
-@media (max-width: 1024px) {
-  .Skills {
-    gap: 100px;
+/* Desktop */
+@media all (max-width: 1440px) {
+
+  .Parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+    position: static;
+    width: 100%;
   }
 }
 
+.Menu {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  font-size: 28px;
+  color: White;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Mobile */
 @media (max-width: 600px) {
   .Parent {
     flex-direction: column;
@@ -347,7 +372,6 @@ p {
     gap: 15px;
     padding: 15px;
     position: static;
-    dropdown-content: Menu;
   }
 
   .Menu {
@@ -357,6 +381,7 @@ p {
     flex-direction: column;
     align-items: Right;
     text-align: Right;
+    flex-direction: unset;
   }
 
   .Button {
