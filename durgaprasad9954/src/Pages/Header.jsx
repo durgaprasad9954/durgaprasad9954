@@ -1,0 +1,26 @@
+import React from "react";
+
+function Header() {
+    return (
+        <div className="Parent">
+            <div className="Name">
+                <h1>Durgaprasad Kolli</h1>
+            </div>
+            <div className="Menu">
+                <a href="body">Home</a>
+                <a href="about">About</a>
+                <a href="Skills">Skills</a>
+                <a href="about">Projects</a>
+                <a href="Footer">Contact</a>
+            </div>
+            <div>
+                <a href="https://wa.me/+917013858977">
+                    <button className="Button">WhatsApp</button>
+                </a>
+            </div>
+        </div>
+    );
+}
+export default Header
+
+
