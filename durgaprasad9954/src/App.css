@@ -2,7 +2,6 @@
   box-sizing: border-box;
   color: white;
   text-decoration: none;
-  background-color: #0f0f0f;
 }
 
 html,
@@ -219,6 +218,10 @@ p {
   animation: scroll 10s linear infinite;
 }
 
+.marquee {
+  background-color: #0f0f0f;
+}
+
 .Experience {
   color: white;
   font-size: 34px;
@@ -265,7 +268,7 @@ p {
   text-align: center;
   padding-top: 100px;
   color: white;
-  background-color: #202020;
+  background-color: #0f0f0f;
 
 }
 
@@ -279,7 +282,7 @@ p {
   font-size: 22px;
   border: 1px solid white;
   cursor: pointer;
-  background-color: transparent;
+  background-color: #0f0f0f;
 }
 
 .Contactpara {
@@ -304,7 +307,7 @@ p {
 }
 
 .Footer {
-  background-color: #202020;
+  background-color: #0f0f0f;
   color: white;
   padding-left: 60px;
   padding-right: 60px;
